@@ -33,6 +33,6 @@ public class ClientService {
     }
 
     public Client save(Client client) {
-        return null;
+        return clientRepository.save(client);
     }
 }

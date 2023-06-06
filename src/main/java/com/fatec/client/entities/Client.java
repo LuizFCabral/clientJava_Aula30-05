@@ -18,8 +18,6 @@ public class Client implements Serializable{
 
     @Column(unique = true)
     private String email;
-    
-    private String name;
 
     public Client() {
     }
@@ -37,7 +35,7 @@ public class Client implements Serializable{
     public void setId(Integer id) {
         this.id = id;
     }
-    
+    private String name;
     public String getName() {
         return name;
     }
